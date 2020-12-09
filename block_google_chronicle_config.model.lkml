@@ -42,7 +42,7 @@ explore: asset_rule_detections_with_udm_events_config {
   extension: required
 }
 
-# explore: user_rule_detections_with_udm_events_config {
-#   extends: [user_rule_detections_with_udm_events_core]
-#   extension: required
-# }
+explore: user_rule_detections_with_udm_events_config {
+  extends: [user_rule_detections_with_udm_events_core]
+  extension: required
+}
