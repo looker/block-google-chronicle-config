@@ -46,3 +46,8 @@ explore: user_rule_detections_with_udm_events_config {
   extends: [user_rule_detections_with_udm_events_core]
   extension: required
 }
+
+explore: udm_enum_value_to_name_mapping_config {
+  extends: [udm_enum_value_to_name_mapping_core]
+  extension: required
+}
