@@ -16,6 +16,11 @@ explore: udm_events_config {
   extension: required
 }
 
+explore: udm_events_aggregates_config {
+  extends: [udm_events_aggregates_core]
+  extension: required
+}
+
 explore: global_threat_map_ioc_config {
   extends: [global_threat_map_ioc_core]
   extension: required
